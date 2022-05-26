@@ -1,0 +1,110 @@
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('../fonts/Amble-Regular-webfont.eot');
+    src: url('../fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('../fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Les éléments principaux */
+
+/* Style de textes  */
+body{
+	font-family: 'ambleregular', sans-serif, Arial, Arial Black, Comic Sans MS, Courier New, Georgia, Impact, Times New Roman, Trebuchet MS, Verdana;
+	color : #181818
+}
+
+#page_site{
+	background-color: rgba(0,0,0);
+	margin: 100px 0px 0px 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+#conteneur{
+	background-color: rgba(128, 128, 128);
+	display: flex;
+	padding: 100px 100px 100px 100px;
+}
+
+
+/* Partie gauche */
+
+.box_left{
+	background-color: rgb(51, 83, 132);
+	color: white;
+	width: 900px;
+	padding: 10px 10px 10px 30px;
+
+}
+
+.photo_profil img{
+	width: 15em;
+	height: 20em;
+	position: relative;
+	top: 20px;
+	left: 40px;
+}
+
+.a_propos img {
+	width: 20px;
+}
+.contact_me img{
+	width: 60px;
+}
+
+.competences img, .exp_pro img, .formations img {
+	width: 50px;
+	bottom : px;
+}
+
+.a_propos h2, .competences h2{
+	font-weight: bold;
+	color: rgb(255,255,255);
+}
+
+
+.exp_pro h2, .formations h2{
+	font-weight: bold;
+	color: rgb(91, 167, 215);
+}
+
+.nom{
+	text-align: center;
+	font-size: 2em;
+	color: rgb(51, 83, 132);
+}
+.titre_page{
+	text-align: center;
+	font-size: 2em;
+	color: rgb(91, 167, 215);
+}
+
+
+
+
+/*Bloc droit*/
+
+.box_right{
+	background-color: rgb(247, 246, 246);
+	color: rgb(0,0,0);
+	/*width: 500px;*/
+	padding: 10px 10px 10px 10px;
+}
+
+.postes, .niveau_formation{
+	font-weight: bold;
+}
+
+.etablissement{
+	color : rgba(128, 128, 128, 1.0);
+}
+
+.box_right
+
